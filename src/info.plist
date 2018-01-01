@@ -140,7 +140,7 @@
     if (strlen($input) &gt; 3 &amp;&amp; substr($input, -3) == "ADD") {
         $word = substr($input, 0, -3);
         $username = "allon6@163.com";     //替换成自己的网易帐号
-        $password = "allon123";  //替换成自己的网易密码
+        $password = "password";  //替换成自己的网易密码
         $contentType = "application/x-www-form-urlencoded";
         $userAgent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4";
         $body = array(
